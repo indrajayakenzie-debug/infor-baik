@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+   
+}
+header img{
+    height: 100px;
+    justify-content: right;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(173, 122, 54);
+    font-size: 30px;
+    padding: 5px 15px;
+    font-family: 'Bagel Fat One';
+    font-size: 32px;
+}
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(187, 163, 102);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    padding: 10px;
+}
+nav a:hover{
+    color: beige;
+}
+.Home{
+    height: 800px;
+    padding-top: 100px;
+     font-size: 22px;
+    background-image: url("brp\ brpp.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size:cover ;
+}
+.deskripsiHome{
+    width: 48%;
+    margin-left: 50px;
+    & h1{
+        color: rgb(188, 153, 109);
+    }
+    & h3{
+        color: rgb(152, 152, 76);
+    }
+}
+.deskripsiHome{
+    font-size: 10px;
+}
+header img.logo{
+    width: 400px;
+    height: 200px
+}
+.About{
+    height: 800px;
+    padding-top: 5px;
+}
+.deskripsiAbout{
+    width: 48%;
+    margin-left: 50px;
+    & h1{
+        color: rgb(188, 153, 109);
+    }
+    & h3{
+        color: rgb(152, 152, 76);
+    }
+}
+.deskripsiAbout{
+    font-size: 10px;
+}
