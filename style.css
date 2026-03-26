@@ -1,6 +1,12 @@
 body{
-    margin:0;
-    font-family: 'Exile';font-size: 22px;
+    margin: 0;
+    border-radius: 5px;
+    background-color: rgb(187, 163, 102);
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("brp\ brpp.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size:cover ;
 }
 header img{
     height: 100px;
@@ -8,119 +14,68 @@ header img{
 }
 nav a{
     text-decoration: none;
-    color: #ffff84;
-    font-size: 25px;
+    color: rgb(173, 122, 54);
     padding: 5px 15px;
-    font-family: 'Bagel Fat One';font-size: 30px; ;
+    font-family:'Courier New', Courier, ;
+    font-size: 32px;
 }
 header{
     text-align: center;
     box-shadow: 0px 0px 5px;
-    background-color: #edff96;
+    background-color: rgb(187, 163, 102);
     width: 100%;
     position: fixed;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 nav{
     padding: 10px;
-    margin: 20px;
-    font-size: 2px;
 }
 nav a:hover{
-    color:#132003 ;
+    color: beige;
 }
 .home{
-    height: 800px;
+     font-size: 22px;
+    height: 400px;
     padding-top: 100px;
     size: 100px;
 
+
 }
-.deskripsiHome{
-    width: 40%;
+.deskripsihome{
+    width: 48%;
     margin-left: 50px;
-    
+    & h1{
+        color: rgb(188, 153, 109);
     }
-     
-     
-section.home{
-    height: 800px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image:url("Background\ poto.png");
-}
-h1.home{
-    font-size: 60px;
-
-}
-.deskripsiHome{
-    font-size: 20px;
-}
-h3{
-      color: #f1f9a8;
-       font-family: 'Bayon';font-size: 42px;
-       margin-top: 0px;
-       margin-bottom: 0px;
-}
-h1{
-      color: #f6fba1;
-      font-family: 'Bayon';font-size: 60px;
-      margin-bottom: 2px;
-}
-p{
-        color: #dcfca7;
-        font-family: 'Bayon';font-size: 24px;
-        margin-top: 2px;
-        background: #e9f081;
-        box-shadow: 2px 5px 5px #1a2b06;
+    & h3{
+        color: rgb(152, 152, 76);
     }
-section.about{
-    background-color: #e7f395;
 }
-.containerAbout{
-    width: 50%;
-    margin: auto;
-    padding: 50px 20px;
-    text-align: center;
+.deskripsihome{
+    font-size: 10px;
 }
-    & img{
-         width:200px;
+header img.logo{
+    width: 400px;
+    height: 200px
+}
+.about{
+    height: 400px;
+    padding-top: 5px;
+}
+.deskripsiabout{
+    width: 48%;
+    margin-left: 50px;
+    & h1{
+        color: rgb(188, 153, 109);
     }
-section.profile{
-    height: 800px;
-    padding-top: 50px;
+    & h3{
+        color: rgb(152, 152, 76);
+    }
 }
-.cardProfile{
-    background-color: #fbf774;
-    padding: 15px;
-    width:300px;
-    margin: auto;
-    text-align: center;
-    
+.deskripsiabout{
+    font-size: 10px;
 }
-img{
-    width:100%;
-}
-.medsos{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height:40px;
-    padding-top:5px;
-}
-.medsos a{
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: 24px;
-
-}
-.Langkah-Langkah{
-    background-color: #cdde7b;
-}
-.terimakasih{
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #b9b666;
+.Deskripsi Gambar{
+    margin-left: 500px ;
 }
