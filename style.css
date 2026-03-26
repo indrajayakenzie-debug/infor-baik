@@ -38,7 +38,7 @@ nav a:hover{
 }
 .home{
      font-size: 20px;
-    height: 400px;
+    height: 450px;
     padding-top: 100px;
 
 }
@@ -64,6 +64,7 @@ header img.logo{
     height: 400px;
     padding-top: 5px;
     scroll-margin-top: 200px;
+    padding-bottom: 100px;
 }
 .deskripsiabout{
     width: 48%;
@@ -98,6 +99,7 @@ header img.logo{
     border-radius: 20px;
     padding-left: 50px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 #how-to{
     width: 500px;
@@ -107,16 +109,38 @@ header img.logo{
     padding-left: 50px;
     scroll-margin-top: 300px;
     margin-left: 100px;
+    padding: 50px;
+    font-size: 20px;
+    
 }
 .profile {
     display: grid;
     place-items: center;
+    padding-top: 250px;
 }
 .medsos nav a {
     color: black;
+    
 }
 .logo {
   width: 50px;
   height: 50px;
 
+}
+.imgprofile{
+    width: 50%;
+}
+.medsos {
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.ThankYou {
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.cardProfile {
+    text-align: center;
 }
