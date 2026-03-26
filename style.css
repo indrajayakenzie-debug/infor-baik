@@ -79,3 +79,8 @@ header img.logo{
 .Deskripsi Gambar{
     margin-left: 500px ;
 }
+
+.profile {
+    display: grid;
+    place-items: center;
+}
