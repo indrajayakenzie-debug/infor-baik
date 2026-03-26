@@ -14,7 +14,7 @@ header img{
 }
 nav a{
     text-decoration: none;
-    color: rgb(173, 122, 54);
+    color: rgb(0, 0, 0);
     padding: 5px 15px;
     font-family:'Courier New', Courier, ;
     font-size: 32px;
@@ -35,7 +35,7 @@ nav a:hover{
     color: beige;
 }
 .home{
-     font-size: 22px;
+     font-size: 20px;
     height: 400px;
     padding-top: 100px;
     size: 100px;
@@ -79,8 +79,28 @@ header img.logo{
 .Deskripsi Gambar{
     margin-left: 500px ;
 }
-
+#home{
+    width: 500px;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+#about{
+    width: 500px;
+    background-color: aliceblue;
+    font-size: 22px;
+    border-radius: 20px;
+}
+#how-to{
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+}
 .profile {
     display: grid;
     place-items: center;
+}
+.medsos nav a {
+    color: black;
 }
