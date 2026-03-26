@@ -7,9 +7,11 @@ body{
     background-repeat: no-repeat;
     background-attachment:fixed ;
     background-size:cover ;
+    justify-content: center;
+    width: 100vw;
 }
 header img{
-    height: 100px;
+    height: 50px;
     justify-content: right;
 }
 nav a{
@@ -38,13 +40,12 @@ nav a:hover{
      font-size: 20px;
     height: 400px;
     padding-top: 100px;
-    size: 100px;
-
 
 }
 .deskripsihome{
     width: 48%;
     margin-left: 50px;
+   
     & h1{
         color: rgb(188, 153, 109);
     }
@@ -62,6 +63,7 @@ header img.logo{
 .about{
     height: 400px;
     padding-top: 5px;
+    scroll-margin-top: 200px;
 }
 .deskripsiabout{
     width: 48%;
@@ -84,18 +86,27 @@ header img.logo{
     background-color: aliceblue;
     margin-bottom: 100px;
     border-radius: 20px;
+    padding-top: 200px;
+    padding-left: 50px;
+    margin-left: 100px;
+
 }
 #about{
     width: 500px;
     background-color: aliceblue;
     font-size: 22px;
     border-radius: 20px;
+    padding-left: 50px;
+    margin-left: 100px;
 }
 #how-to{
     width: 500px;
     background-color: aliceblue;
     border-radius: 20px;
     font-size: 20px;
+    padding-left: 50px;
+    scroll-margin-top: 300px;
+    margin-left: 100px;
 }
 .profile {
     display: grid;
@@ -103,4 +114,9 @@ header img.logo{
 }
 .medsos nav a {
     color: black;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+
 }
